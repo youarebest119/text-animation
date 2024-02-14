@@ -1,0 +1,19 @@
+body {
+  font-family: "Mont", sans-serif;
+}
+
+ul {
+  margin: auto;
+  max-width: 1000px;
+}
+
+li {
+  font-size: 30px;
+  font-weight: 600;
+  overflow: clip;
+  list-style: none;
+}
+
+li:not(:last-child) {
+  margin-bottom: 10px;
+}
